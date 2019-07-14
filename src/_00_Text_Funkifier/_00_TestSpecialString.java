@@ -38,6 +38,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+		SpecialString s = new UpperCaseString("testy time");
+		System.out.println(s);
+		assertEquals("TESTY TIME", s.toString());
 	}
 }
